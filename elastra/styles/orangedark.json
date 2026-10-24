@@ -1,0 +1,48 @@
+{
+	"version": 2,
+  "title": "Orange Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#1E1E1E",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#fff",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#ff7300",
+					"name": "Primary"
+        },  
+				{
+					"slug": "secondary",
+					"color": "#676767",
+					"name": "Secondary"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				},
+        {
+					"slug": "white",
+					"color": "#fff",
+					"name": "White"
+				},
+        {
+					"slug": "black",
+					"color": "#000",
+					"name": "Black"
+				}
+			]
+		},
+		"custom": {
+			"text-shadow": "0 2px 5px rgba(0, 0, 0, 0.2);"
+		}
+	}
+}

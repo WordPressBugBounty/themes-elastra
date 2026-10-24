@@ -1,0 +1,48 @@
+{
+	"version": 2,
+    "title": "Dark Blue Light",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#1d2327",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#153956",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#eee",
+					"name": "Secondary"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				},
+        {
+					"slug": "white",
+					"color": "#fff",
+					"name": "White"
+				},
+        {
+					"slug": "black",
+					"color": "#000",
+					"name": "Black"
+				}
+			]
+		},
+		"custom": {
+			"text-shadow": "0 2px 5px rgba(0, 0, 0, 0.2);"
+		}
+	}
+}
