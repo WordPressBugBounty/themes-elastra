@@ -3,13 +3,16 @@
 Contributors: EnvoThemes
 Requires at least: 7.0
 Tested up to: 7.1
-Requires PHP: 7.0
-Stable tag: 1.0.4
+Requires PHP: 7.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Changelog ==
+
+= 1.0.5 =
+* Updated admin notice
 
 = 1.0.4 =
 * Fixed color styles
@@ -59,3 +62,6 @@ team 3      - https://pxhere.com/en/photo/817498, license CC0
 Reviews 1   - https://pxhere.com/en/photo/635897, license CC0
 Reviews 2   - https://pxhere.com/en/photo/764654, license CC0
 Reviews 3   - https://pxhere.com/en/photo/1167943, license CC0
+
+Envo Blocks logo (assets/admin/envo-blocks.svg, used in the admin notice) - (C) EnvoThemes, GPLv2 or later
+Admin notice illustration (assets/admin/envo-blocks-preview.webp) - own artwork (C) EnvoThemes, GPLv2 or later; icons from Dashicons (WordPress), GPLv2 or later

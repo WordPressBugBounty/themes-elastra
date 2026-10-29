@@ -47,22 +47,8 @@ require_once get_theme_file_path( 'include/register-block-styles.php' );
 // Setup block patterns
 require_once get_theme_file_path( '/include/register-block-patterns.php' );
 
-if ( !function_exists( 'elastra_envo_extra_is_activated' ) ) {
-	/**
-	 * Query Envo extra activation
-	 */
-	function elastra_envo_extra_is_activated() {
-		return defined( 'ENVO_EXTRA_CURRENT_VERSION' ) ? true : false;
-	}
-}
-/**
- * Register Theme Info Page
- */
-require_once( trailingslashit(get_template_directory()) . 'lib/elastra-dashboard.php' );
+// Admin notice recommending the free Envo Blocks plugin, with a one-click installer.
 if ( is_admin() ) {
-	require_once( trailingslashit( get_template_directory() ) . 'lib/elastra-plugin-install.php' );
+	require_once get_theme_file_path( 'include/class-elastra-plugin-notice.php' );
 }
-if ( elastra_envo_extra_is_activated() ) {
-	add_action( 'init', 'envo_extra_dashboard' );
-	add_action( 'init', 'envo_extra_recommended_plugins' );
-}
+
